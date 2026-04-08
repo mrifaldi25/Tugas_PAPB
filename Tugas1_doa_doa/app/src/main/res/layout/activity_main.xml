@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="MENU"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_berdoa" />
+
+        <Button
+            android:text="Do'a Sebelum Makan"
+            android:onClick="doaSebelumMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Sesudah Makan"
+            android:onClick="doaSesudahMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Sebelum Tidur"
+            android:onClick="doaSebelumTidur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Sesudah Tidur"
+            android:onClick="doaSesudahTidur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Niat Wudhu"
+            android:onClick="doaNiatWudhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Setelah Wudhu"
+            android:onClick="doaSetelahWudhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Untuk Kedua Orang Tua"
+            android:onClick="doaUntukKeduaOrangTua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Sebelum Belajar"
+            android:onClick="doaSebelumBelajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Sesudah Belajar"
+            android:onClick="doaSesudahBelajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Masuk Masjid"
+            android:onClick="doaMasukMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Keluar Masjid"
+            android:onClick="doaKeluarMasjid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Selamat Dunia Akhirat"
+            android:onClick="doaSelamatDuniaAkhirat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Menjenguk Orang Sakit"
+            android:onClick="doaMenjengukOrangSakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Agar Dibukakan Pintu Rizky"
+            android:onClick="doaAgarDIbukakanPintuRezeki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Do'a Hendak Bepergian"
+            android:onClick="doaHendakBerpergian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
